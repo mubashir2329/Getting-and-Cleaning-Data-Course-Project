@@ -3,11 +3,12 @@ Course project to perform cleaning and analysis on data collected from the accel
 
 ## To run analysis and tidyup dataset execute the run_analysis.R
 The R code will take care of dependencies as the packages will be installed if not already present.
-The version details is following: 
-*R version 3.6.3 (2020-02-29)
-*dplyr version 1.0.2
-*stringr version 1.4.0
-*Dataset download date (August 30, 2020)
+The version details is following:
+
+* R version 3.6.3 (2020-02-29)
+* dplyr version 1.0.2
+* stringr version 1.4.0
+* Dataset download date (August 30, 2020)
 
 The following functionality will be performed.
 
