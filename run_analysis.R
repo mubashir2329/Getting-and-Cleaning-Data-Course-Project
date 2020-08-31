@@ -74,6 +74,7 @@ xdata <- mutate(xdata,
 xdata <- mutate(xdata, subject = subject, .before = 1)
 
 # write.csv(xdata, "./tidy_data.csv")
+
 ## group by to summarize (create independent data)
 xdata <- group_by(xdata, activity, subject)
 xdata <- summarise(xdata, across(everything(), mean))
