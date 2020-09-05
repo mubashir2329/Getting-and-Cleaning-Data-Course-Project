@@ -1,7 +1,7 @@
 
 ## Download the dataset
 if(!dir.exists("./UCI HAR Dataset")){
-  if(!dir.exists("./data.zip")){
+  if(!file.exists("./data.zip")){
     download.file("http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip",
                   destfile = "./data.zip")
   }
